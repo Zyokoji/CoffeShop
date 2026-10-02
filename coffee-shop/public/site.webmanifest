@@ -1,0 +1,27 @@
+{
+  "name": "Alder Coffee",
+  "short_name": "Alder",
+  "description": "Quiet mornings, good coffee, no rush.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E7EBE6",
+  "theme_color": "#3F5A48",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/exports/alder-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

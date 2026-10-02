@@ -4,24 +4,35 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "start": "react-router-serve ./build/server/index.js",
+    "db:seed": "node src/db/seed.js",
+    "brand:export": "node scripts/export-brand.js",
+    "lint": "eslint ."
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "@react-router/node": "^8.4.0",
+    "@react-router/serve": "^8.4.0",
+    "drizzle-orm": "^0.45.3",
+    "isbot": "^5.2.2",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-router": "^8.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@react-router/dev": "^8.4.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
+    "drizzle-kit": "^0.31.11",
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.6",
     "globals": "^17.12.0",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
     "vite": "^8.3.0"
   }
 }
